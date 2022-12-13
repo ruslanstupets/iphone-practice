@@ -16,7 +16,7 @@ body{
 	line-height: 18px;
 	color: #0A0A0A;
 }
-
+/* header styles start =================================== */
 .header{
 	background: #0A0A0A;
 	padding: 33px 0 32px;
@@ -44,6 +44,8 @@ body{
 	flex-grow: 1;
 	flex-basis: 0;
 	text-align: right;
+	font-size: 24px;
+	line-height: 29px;
 }
 
 .menu-item{
@@ -53,6 +55,9 @@ body{
 .menu-item:last-child{
 	padding-right: 0px;
 }
+/* header styles end =================================== */
+
+/*  headline styles start =================================== */
 
 .headline { 
 	background: #f5f5f7;
@@ -82,8 +87,9 @@ body{
 	border-radius: 30px;
 	padding: 22px 117px 19px;
 }
+/*  headline styles end =================================== */
 
-
+/* new styles start =================================== */
 .new {
 	padding: 90px 0 150px;
 }
@@ -119,8 +125,9 @@ body{
 .new-img{
 	margin-left: 190px;
 }
+/* new styles end =================================== */
 
-
+/* color styles start =================================== */
 .color {
 	padding-bottom: 150px;
 }
@@ -145,3 +152,80 @@ body{
 .color-item p{
 	margin: 0;
 }
+/* color styles end =================================== */
+
+/* contacts styles start =================================== */
+
+.contacts-inner {
+	display: flex;
+	background: #574B63;
+	color: #FFFFFF;
+}
+.contacts-form{
+	width: 100%;
+	padding: 140px 93px;
+	text-align: center;
+	
+}
+.contacts-title {
+	margin: 0 0 60px;
+	text-transform: uppercase;
+	font-size: 32px;
+	line-height: 39px;
+	text-align: left;
+}
+.contacts-input {
+	padding: 10px 0;
+	border: none;
+	border-bottom: 1px solid #F5F5F5;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	background:#574B63;;
+}
+
+.contacts-input::placeholder{
+	font-size: 14px;
+	line-height: 18px;
+	opacity: 0.5;
+	color: #FFFFFF;
+	font-family: "inter", sans-serif;
+	font-weight: 400;
+}
+.contacts-form p{
+	opacity: 0.5;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.contacts-form button{
+	border: none;
+	text-transform: uppercase;
+	color: #490E84;
+	background: #FFFFFF;
+	border-radius: 30px;
+	padding: 16px 81px;
+	font-weight: 400;
+	cursor: pointer;
+}
+/* contacts styles end =================================== */
+
+/* footer styles start =================================== */
+.footer {
+	background: #0A0A0A;
+}
+
+.footer-inner {
+	color: #717171;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0;
+	
+}
+.footer-link {
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+/* footer styles end =================================== */
