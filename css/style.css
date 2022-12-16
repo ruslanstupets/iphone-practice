@@ -415,21 +415,25 @@ body{
 		padding: 50px 30px;
 	}
 }
-@media(max-width:420px){
+
+
+@media(max-width:374px){
+		.contacts-form{
+		padding: 50px 10px;
+	}
+}
+
+@media(max-width:350px){
 	.nav{
 		flex-wrap: wrap;
 	}
 	.phone{
 		flex-basis: auto;
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 	.menu-item{
-		font-size: 32px;
-	}
-}
-@media(max-width:374px){
-		.contacts-form{
-		padding: 50px 10px;
+		padding: 20px 0;
+		font-size: 36px;
 	}
 }
 
